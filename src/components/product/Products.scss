@@ -27,7 +27,9 @@
       width: 100%;
       height: $cardHeight;
       border-radius: $borderRadius;
+      transition: all 0.5s ease-in-out;
       filter: sepia(100%);
+      
     }
     &__over {
       width: 100%;
@@ -54,6 +56,7 @@
     }
     &:hover img {
       filter: none;
+      
     }
   }
 }

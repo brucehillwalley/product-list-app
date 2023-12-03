@@ -4,7 +4,7 @@ const ProductCard = ({price, image, title }) => {
     <div className="card">
       <div>
         <div className="price">
-          <h3>{price}</h3>
+          <h3>{price} $</h3>
         </div>
         <img src={image} alt={title} />
         <div className="card__over">
