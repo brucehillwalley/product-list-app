@@ -1,12 +1,12 @@
 import ProductCard from "./ProductCard";
-
+import "./Products.scss";
 
 //?havada yakaladık parametreyi
 
 const ProductList = ({ products }) => {
   console.log(products);
   return (
-    <div className=".card-container">
+    <div className="product-list">
       {/* {products.map((product) => (
         <div key={product.id}>
           <div>
